@@ -91,7 +91,6 @@ var infoWindowIntervalId = null;
 var autoSearchTimeoutId = null;
 jQuery(function($) {
     // Asynchronously Load the map API 
-	console.log({GMAPS_API_KEY});
     var script = document.createElement('script');
     script.src = '//maps.googleapis.com/maps/api/js?key={{GMAPS_API_KEY}}&sensor=false&callback=map_api_loaded';
 	document.body.appendChild(script);
