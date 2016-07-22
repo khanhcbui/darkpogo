@@ -92,7 +92,7 @@ var autoSearchTimeoutId = null;
 jQuery(function($) {
     // Asynchronously Load the map API 
     var script = document.createElement('script');
-    script.src = '//maps.googleapis.com/maps/api/js?key={{GMAPS_API_KEY}}&sensor=false&callback=map_api_loaded';
+    script.src = '//maps.googleapis.com/maps/api/js?key="AIzaSyAT9aQNPDm_YmwZk0wPxDIEI0IFq2WyU2c"&sensor=false&callback=map_api_loaded';
 	document.body.appendChild(script);
 	$("[name='searchType']").on('change', function(){
 		update_mode();
